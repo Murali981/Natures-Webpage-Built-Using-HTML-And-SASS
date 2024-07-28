@@ -15,7 +15,8 @@
       $color-primary-light,
       $color-primary-dark
     );
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; // This line is to work for all the browsers using "-webkit-"
+    background-clip: text;
     color: transparent;
   }
 
